@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "ll-client",
+    "slug": "ll-client",
+    "version": "0.1.0",
+    "platforms": ["ios", "android"],
+    "ios": {
+      "supportsTablet": true
+    }
+  }
+}
