@@ -4,17 +4,19 @@
 
 ## 시작하기
 
-Expo SDK 58을 사용하며, Node.js 24.13.0에서 설치 및 번들 생성을 확인했습니다.
+Expo SDK 58, Node.js 24 LTS, Yarn 4.18.1을 사용합니다.
+패키지는 `node_modules` 방식으로 설치합니다.
 
 ```bash
-npm ci
-npm start
+corepack enable
+yarn install --immutable
+yarn start
 ```
 
 ```bash
-npm run ios
-npm run android
-npm run typecheck
+yarn ios
+yarn android
+yarn typecheck
 ```
 
 실기기의 Expo Go는 SDK 58 지원 버전이 필요합니다. 지원 버전이 없으면 Expo 개발 빌드를 사용합니다.
